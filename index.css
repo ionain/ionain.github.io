@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav {
+    position: sticky;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+}
+
+#logo {
+    display: grid;
+    place-content: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-decoration: none;
+    height: 4em;
+    width: 4em;
+}
+
+#nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+header {
+    height: 20rem;
+    background: radial-gradient(circle at 100%, rgb(36, 36, 36), rgb(99, 99, 99) 95%);
+    place-content: center;
+    padding-left: 10%;
+    color: white;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
