@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 #logo {
@@ -18,8 +18,8 @@
     background-color: rgb(36, 36, 36);
     color: white;
     text-decoration: none;
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
 }
 
 #nav-menu {
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 1em;
+    gap: 1rem;
 }
 
 header {
@@ -36,9 +36,26 @@ header {
     place-content: center;
     padding-left: 10%;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h1 {
     font-size: 6rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section {
+    margin: 4rem 10%;
+}
+
+#projects-container {
+    display: flex;
+    gap: 10px;
+}
+
+.project {
+
 }
