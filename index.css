@@ -61,6 +61,20 @@ header {
     font-size: 1.5rem;
 }
 
+#banner-name {
+    cursor: pointer;
+    user-select: none;
+}
+
+#pointer {
+    position: absolute;
+    margin-left: 10%;
+    left: 33rem;
+    top: 18rem;
+    width: 4rem;
+    height: 4rem;
+}
+
 #cta {
     margin: 2rem 0;
     background-color: white;
